@@ -13,7 +13,7 @@ npm run envs
 ```
 
 4. Para development ejecutar:
-
+f
 ```
 npm run start
 ```

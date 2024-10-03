@@ -76,4 +76,7 @@ export class ZoomRangePageComponent implements AfterViewInit, OnDestroy{
     this.map?.zoomTo(this.zoom);
   }
 
+
+
+
 }
