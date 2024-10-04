@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MapsModule } from './maps/maps.module';
+import { CounterAloneComponent } from './alone/components/counter-alone/counter-alone.component';
 
 @NgModule({
   declarations: [
@@ -11,7 +12,8 @@ import { MapsModule } from './maps/maps.module';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]
